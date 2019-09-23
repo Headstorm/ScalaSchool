@@ -1,5 +1,6 @@
 # ScalaSchool
-![Scala](https://vega-global.eu/wp-content/uploads/2018/03/Scala.jpg)
+
+<img align="left" width="100" height="100" src="https://www.scala-lang.org/resources/img/scala-spiral-3d-2-toned-down.png">
 
 Learn Functional Programming with Scala using the below resources:
 
