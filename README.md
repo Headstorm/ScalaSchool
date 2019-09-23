@@ -1,5 +1,4 @@
 <img align="left" width="150" height="200" src="https://www.scala-lang.org/resources/img/scala-spiral-3d-2-toned-down.png">
-
 # ScalaSchool
 
 Welcome to Headstorm Scala School. This series focuses on learning Scala and concepts of pure functional programming with a smattering of category theory.  
