@@ -2,7 +2,7 @@
 
 Learn Functional Programming with Scala using the below resources:
 
-![Scala](https://www.scala-lang.org/resources/img/scala-spiral-3d-2-toned-down.png)
+![Scala](https://dwglogo.com/wp-content/uploads/2017/09/1300px-Scala_logo.png)
 
 ## Scala Excercises
 https://www.scala-exercises.org/
