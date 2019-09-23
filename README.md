@@ -19,7 +19,7 @@ Now you're ready to start learning Scala with the resources below:
 
 https://www.scala-exercises.org/
 
-Do these above excercises in this order:
+Complete these excercises from the above link in the following order:
 1. [Scala Tutorial](https://www.scala-exercises.org/scala_tutorial/terms_and_types)
 2. [FP in Scala](https://www.scala-exercises.org/fp_in_scala/getting_started_with_functional_programming)
 3. [STD Lib](https://www.scala-exercises.org/std_lib/asserts)
