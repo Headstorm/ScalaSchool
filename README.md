@@ -2,7 +2,7 @@
 
 # ScalaSchool
 
-Welcome to Headstorm Scala School. This series focuses on learning Scala and concepts of pure functional programming with a smattering of category theory.  
+Welcome to Headstorm Scala School! This series focuses on learning Scala and concepts of pure functional programming with a smattering of category theory.  
 
 Scala derives from a combination of the words “scalable” and “language”. It is a functional programming language, which runs on top of the Java Virtual Machine.
 
