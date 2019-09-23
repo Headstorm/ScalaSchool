@@ -1,8 +1,9 @@
 # ScalaSchool
 
-<img align="left" width="100" height="100" src="https://www.scala-lang.org/resources/img/scala-spiral-3d-2-toned-down.png">
+<img align="left" width="100" height="200" src="https://www.scala-lang.org/resources/img/scala-spiral-3d-2-toned-down.png">
 
 Learn Functional Programming with Scala using the below resources:
+
 
 ## Scala Excercises
 https://www.scala-exercises.org/
