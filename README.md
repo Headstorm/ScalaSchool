@@ -12,7 +12,8 @@ Scala can be interpreted or compiled.  Use one of the following three tools to r
 * Scastie: https://scastie.scala-lang.org/
 * Scala Fiddle: https://scalafiddle.io/
 
-Start learning Scala with the resources below:
+
+Now you're ready to start learning Scala with the resources below:
 
 ## Scala Excercises
 
