@@ -1,7 +1,7 @@
 # ScalaSchool
+![Scala](https://vega-global.eu/wp-content/uploads/2018/03/Scala.jpg)
 
 Learn Functional Programming with Scala using the below resources:
-![Scala](https://logodix.com/logo/1650119.png)
 
 ## Scala Excercises
 https://www.scala-exercises.org/
