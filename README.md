@@ -1,8 +1,7 @@
 # ScalaSchool
 
 Learn Functional Programming with Scala using the below resources:
-
-![Scala](https://logopond.com/logos/c4bdde888d5bc7b9a4136f9dcedd91df.png)
+![Scala](https://logodix.com/logo/1650119.png)
 
 ## Scala Excercises
 https://www.scala-exercises.org/
