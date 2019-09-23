@@ -15,13 +15,14 @@ Scala can be interpreted or compiled.  Use one of the following three tools to r
 Start learning Scala with the resources below:
 
 ## Scala Excercises
+
 https://www.scala-exercises.org/
 
 Do these above excercises in this order:
-1. SCALA TUTORIAL
-2. FP IN SCALA
-3. STD LIB
-4. CATS
+1. [Scala Tutorial](https://www.scala-exercises.org/scala_tutorial/terms_and_types)
+2. [FP in Scala](https://www.scala-exercises.org/fp_in_scala/getting_started_with_functional_programming)
+3. [STD Lib](https://www.scala-exercises.org/std_lib/asserts)
+4. [Cats](https://www.scala-exercises.org/cats/semigroup)
 5. Do the rest in any order
 
 ## Category Theory in Scala
@@ -36,6 +37,11 @@ https://doc.akka.io/docs/akka/current/guide/introduction.html
 ## Coursera class by the creator of scala
 
 https://www.coursera.org/collections/learn-scala
+
+## Cats
+
+https://typelevel.org/cats/
+https://books.underscore.io/scala-with-cats/scala-with-cats.pdf
 
 ## Scala Tutorial Series
 
