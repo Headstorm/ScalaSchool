@@ -6,7 +6,7 @@ Welcome to Headstorm Scala School! This series focuses on learning Scala and con
 
 Scala derives from a combination of the words “scalable” and “language”. It is a functional programming language, which runs on top of the Java Virtual Machine.
 
-Scala can be interpreted or compiled.  Use one of the following three tools to run or interpret your Scala code live as you practice, these tools are called REPLs
+Scala can be interpreted or compiled.  Use one of the following three tools to run or interpret your Scala code as you practice, these tools are called REPLs
 * The built in Scala REPL: `brew install scala` . Now type `scala` on the command line. Welcome to your built in Scala REPL!
 * Ammonite:  `sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L https://github.com/lihaoyi/Ammonite/releases/download/1.7.1/2.13-1.7.1) > /usr/local/bin/amm && chmod +x /usr/local/bin/amm' && amm` . Ammonite runs automatically after installation, and you can run it later with `amm`
 * Scastie: https://scastie.scala-lang.org/
