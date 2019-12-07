@@ -2,9 +2,9 @@
 
 # ScalaSchool
 
-Welcome to Headstorm Scala School! This series focuses on learning Scala and concepts of pure functional programming with a smattering of category theory.  
+Welcome to Headstorm Scala School! Our program focuses on learning the core elements of Scala and pure functional programming with a sprinkling of category theory.
 
-Scala derives from a combination of the words “scalable” and “language”. It is a functional programming language, which runs on top of the Java Virtual Machine.
+Scala derives from a combination of the words “scalable” and “language” and is a functional programming language with OO capabilities. It compiles to Java bytecode and runs on top of the Java Virtual Machine.
 
 Scala can be interpreted or compiled.  Use one of the following three tools to run or interpret your Scala code as you practice, these tools are called [REPLs](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop):
 * The built in Scala REPL: `brew install scala` . Now type `scala` on the command line. Welcome to your built in Scala REPL!
@@ -24,7 +24,7 @@ Complete these excercises from the above link in the following order:
 2. [FP in Scala](https://www.scala-exercises.org/fp_in_scala/getting_started_with_functional_programming)
 3. [STD Lib](https://www.scala-exercises.org/std_lib/asserts)
 4. [Cats](https://www.scala-exercises.org/cats/semigroup)
-5. Do the rest in any order
+5. Complete the rest in any order
 
 ## Category Theory in Scala
 
