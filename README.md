@@ -46,4 +46,6 @@ https://books.underscore.io/scala-with-cats/scala-with-cats.pdf
 
 ## Scala Tutorial Series
 
+This is an optional supplemental training series that widely covers the basics of the Scala language
+
 https://data-flair.training/blogs/scala-tutorials-home/
