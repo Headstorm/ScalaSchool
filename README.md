@@ -26,14 +26,14 @@ Complete these excercises from the above link in the following order:
 4. [Cats](https://www.scala-exercises.org/cats/semigroup)
 5. Complete the rest in any order
 
-## Category Theory in Scala
-
-https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers-scala.pdf
 
 ## Actor Pattern and Akka
 
 https://doc.akka.io/docs/akka/2.5.3/scala/guide/actors-intro.html
+https://doc.akka.io/docs/akka/current/general/actors.html
 https://doc.akka.io/docs/akka/current/guide/introduction.html
+https://doc.akka.io/docs/akka/current/typed/guide/tutorial_1.html
+https://doc.akka.io/docs/akka/current/general/actor-systems.html
 
 ## Coursera class by the creator of scala
 
@@ -44,8 +44,10 @@ https://www.coursera.org/collections/learn-scala
 https://typelevel.org/cats/
 https://books.underscore.io/scala-with-cats/scala-with-cats.pdf
 
-## Scala Tutorial Series
+## Optional: Category Theory in Scala
 
-This is an optional supplemental training series that widely covers the basics of the Scala language
+https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers-scala.pdf
 
-https://data-flair.training/blogs/scala-tutorials-home/
+## Optional: Functional Database Layer: Doobie
+
+https://tpolecat.github.io/doobie/docs/01-Introduction.html
