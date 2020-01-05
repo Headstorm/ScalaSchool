@@ -12,8 +12,9 @@ Use one of the following tools to run your Scala code as you practice, these too
 * Scastie: https://scastie.scala-lang.org/
 * Scala Fiddle: https://scalafiddle.io/
 
-
 Now you're ready to start learning Scala with the resources below:
+
+---
 
 ## Scala Excercises
 
@@ -49,6 +50,8 @@ Cats is an important, widely-used library amongst Scala users for enabling pure 
 
 https://typelevel.org/cats/
 https://books.underscore.io/scala-with-cats/scala-with-cats.pdf
+
+----
 
 ## Optional: But Highly Reccomended
 
