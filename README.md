@@ -2,7 +2,7 @@
 
 # ScalaSchool
 
-Welcome to Headstorm Scala School! This program focuses on learning the core elements of Scala and pure functional programming with a sprinkling of [category theory](https://en.wikipedia.org/wiki/Category_theory).
+Welcome to Headstorm Scala School! This series focuses on learning the core elements of Scala and pure functional programming with a sprinkling of [category theory](https://en.wikipedia.org/wiki/Category_theory).
 
 Scala is a strongly typed, functional programming language with an OO heritage. It compiles to Java bytecode and runs on the Java Virtual Machine.
 
@@ -29,6 +29,9 @@ Complete these excercises from the above link in the following order:
 4. [Cats](https://www.scala-exercises.org/cats/semigroup)
 5. Complete the rest in any order
 
+## Coursera class by the creator of scala
+
+https://www.coursera.org/collections/learn-scala
 
 ## Actor Pattern and Akka
 
@@ -39,10 +42,6 @@ https://doc.akka.io/docs/akka/current/general/actors.html
 https://doc.akka.io/docs/akka/current/guide/introduction.html
 https://doc.akka.io/docs/akka/current/typed/guide/tutorial_1.html
 https://doc.akka.io/docs/akka/current/general/actor-systems.html
-
-## Coursera class by the creator of scala
-
-https://www.coursera.org/collections/learn-scala
 
 ## Cats
 
