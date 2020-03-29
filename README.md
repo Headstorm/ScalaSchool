@@ -45,11 +45,11 @@ https://www.coursera.org/collections/learn-scala
 
 Akka is an important tool in the Scala ecosystem for building distributed systems and event sourcing.
 
-https://doc.akka.io/docs/akka/2.5.3/scala/guide/actors-intro.html
-https://doc.akka.io/docs/akka/current/general/actors.html
-https://doc.akka.io/docs/akka/current/guide/introduction.html
-https://doc.akka.io/docs/akka/current/typed/guide/tutorial_1.html
-https://doc.akka.io/docs/akka/current/general/actor-systems.html
+ * https://doc.akka.io/docs/akka/current/scala/guide/actors-intro.html
+ * https://doc.akka.io/docs/akka/current/general/actors.html
+ * https://doc.akka.io/docs/akka/current/guide/introduction.html
+ * https://doc.akka.io/docs/akka/current/typed/guide/tutorial_1.html
+ * https://doc.akka.io/docs/akka/current/general/actor-systems.html
 
 ## Cats
 
