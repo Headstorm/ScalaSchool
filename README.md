@@ -15,13 +15,13 @@ Use one of the following tools to run your Scala code as you practice, these too
 ```bash
 sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L https://github.com/lihaoyi/Ammonite/releases/download/1.7.1/2.13-1.7.1) > /usr/local/bin/amm && chmod +x /usr/local/bin/amm' && amm
 ``` 
- Ammonite runs automatically after installation, and you can run it later by entering `amm` in your shell.
+     Ammonite runs automatically after installation, and you can run it later by entering `amm` in your shell.
 
   * Scastie: https://scastie.scala-lang.org/
 
   * Scala Fiddle: https://scalafiddle.io/
 
-You're ready to start learning Scala with the resources below:
+Now you're ready to start learning Scala with the resources below:
 
 ---
 
