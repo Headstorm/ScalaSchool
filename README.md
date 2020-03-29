@@ -9,9 +9,9 @@ Scala is a strongly typed, functional programming language with an OO heritage. 
 Use one of the following tools to run your Scala code as you practice, these tools are called [REPLs](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop):
 
   * The built in Scala REPL: `brew install scala`
-    Now type `scala` on the command line. Welcome to your built in Scala REPL!
+  Type `scala` on the command line. Welcome to your built in Scala REPL!
 
-  * Ammonite:  `sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L https://github.com/lihaoyi/Ammonite/releases/download/1.7.1/2.13-1.7.1) > /usr/local/bin/amm && chmod +x /usr/local/bin/amm' && amm` . Ammonite runs automatically after installation, and you can run it later with `amm`
+  * Ammonite:  ```sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L https://github.com/lihaoyi/Ammonite/releases/download/1.7.1/2.13-1.7.1) > /usr/local/bin/amm && chmod +x /usr/local/bin/amm' && amm``` Ammonite runs automatically after installation, and you can run it later with `amm`
 
   * Scastie: https://scastie.scala-lang.org/
 
