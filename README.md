@@ -2,7 +2,7 @@
 
 # ScalaSchool
 
-Welcome to Headstorm Scala School! This series focuses on learning the core elements of Scala and pure functional programming with a sprinkling of [category theory](https://en.wikipedia.org/wiki/Category_theory).
+Welcome to Headstorm Scala School! This series focuses on learning the core elements of Scala and pure functional programming concepts with a sprinkling of [category theory](https://en.wikipedia.org/wiki/Category_theory).
 
 Scala is a strongly typed, functional programming language with an OO heritage. It compiles to Java bytecode and runs on the Java Virtual Machine.
 
@@ -50,7 +50,7 @@ Cats is an important, widely-used library amongst Scala users for enabling pure 
 https://typelevel.org/cats/
 https://books.underscore.io/scala-with-cats/scala-with-cats.pdf
 
-----
+---
 
 ## Optional: But Highly Reccomended
 
