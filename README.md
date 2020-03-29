@@ -11,11 +11,11 @@ Use one of the following tools to run your Scala code as you practice, these too
   * The built in Scala REPL: `brew install scala`
   Type `scala` on the command line. Welcome to your built in Scala REPL!
 
-  * Ammonite:  
+  * Install Ammonite with the below command in your Bash shell:  
 ```bash
 sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L https://github.com/lihaoyi/Ammonite/releases/download/1.7.1/2.13-1.7.1) > /usr/local/bin/amm && chmod +x /usr/local/bin/amm' && amm
 ``` 
-Ammonite runs automatically after installation, and you can run it later with `amm`
+ Ammonite runs automatically after installation, and you can run it later by entering `amm` in your shell.
 
   * Scastie: https://scastie.scala-lang.org/
 
