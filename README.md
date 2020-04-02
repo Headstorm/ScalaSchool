@@ -55,8 +55,8 @@ Akka is an important tool in the Scala ecosystem for building distributed system
 
 Cats is an important, widely-used library amongst Scala users for enabling pure functional programming.
 
-https://typelevel.org/cats/
-https://books.underscore.io/scala-with-cats/scala-with-cats.pdf
+* https://typelevel.org/cats/
+* https://books.underscore.io/scala-with-cats/scala-with-cats.pdf
 
 ---
 
