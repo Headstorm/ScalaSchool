@@ -53,10 +53,22 @@ Akka is an important tool in the Scala ecosystem for building distributed system
 
 ## Cats
 
-Cats is an important, widely-used library amongst Scala users for enabling pure functional programming.
+Cats provides abstractions for pure functional programming and is a foundational library as it's types are leveraged in the broader ecosystem of "Typelevel" Scala libraries
 
 * https://typelevel.org/cats/
 * https://books.underscore.io/scala-with-cats/scala-with-cats.pdf
+
+## Cats-Effect
+
+Cats Effect provides a standard IO type for the Cats ecosystem, as well as a set of typeclasses which characterize general effect types. Critically, this project manages both synchronous and asynchronous (callback-driven) effects.
+
+https://typelevel.org/cats-effect/
+
+## Fs2
+
+A purely functional, effectful, compositional, polymorphic and stream processing library for Scala 
+
+https://fs2.io
 
 ---
 
