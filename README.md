@@ -2,11 +2,17 @@
 
 # ScalaSchool
 
-Welcome to Headstorm Scala School! This series focuses on learning the core elements of Scala and pure functional programming concepts with a sprinkling of [category theory](https://en.wikipedia.org/wiki/Category_theory).
+Welcome to Headstorm Scala School!
+ 
+This series focuses on learning the core elements of Scala and pure functional programming concepts with a sprinkling of [category theory](https://en.wikipedia.org/wiki/Category_theory).
+
+### Basics
 
 Scala is a strongly typed, functional programming language with an OO heritage. It compiles to Java bytecode and runs on the Java Virtual Machine.
 
-Use one of the following tools to run your Scala code as you practice, these tools are called [REPLs](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop):
+### Setup
+
+Use one of the following tools to run your Scala code as you practice, these tools are [REPLs](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop):
 
   * **Scala REPL:** Scala itself provides a built in REPL: `brew install scala`
   Now type `scala` on the command line. Welcome to your built in Scala REPL!
@@ -24,9 +30,9 @@ Now you're ready to start learning Scala with the resources below:
 
 ---
 
-## Scala Excercises
+## Scala Exercises
 
-These Scala excercises are the best way to start learning the Scala language and ecosystem as a beginner, but there are alse advanced courses here for those looking to advance their understanding.
+Hands-on is a great way to start learning the Scala language and ecosystem as a beginner. There are also advanced courses here for those looking to add depth to their understanding.
 
 https://www.scala-exercises.org/
 
@@ -72,7 +78,7 @@ https://fs2.io
 
 ---
 
-## Reccomended:
+## Recommended:
 
 ### Category Theory in Scala
 
