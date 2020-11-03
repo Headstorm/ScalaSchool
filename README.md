@@ -1,12 +1,32 @@
-<img align="left" width="150" height="200" src="https://www.scala-lang.org/resources/img/scala-spiral-3d-2-toned-down.png">
+<img align="left" width="100" height="150" src="https://www.scala-lang.org/resources/img/scala-spiral-3d-2-toned-down.png">
 
 # ScalaSchool
 
-Welcome to Headstorm Scala School! This series focuses on learning the core elements of Scala and pure functional programming concepts with a sprinkling of [category theory](https://en.wikipedia.org/wiki/Category_theory).
+Welcome to Headstorm Scala School!
+ 
+This series focuses on learning the core elements of Scala and pure functional programming concepts with a sprinkling of [category theory](https://en.wikipedia.org/wiki/Category_theory).
+
+## Basics
 
 Scala is a strongly typed, functional programming language with an OO heritage. It compiles to Java bytecode and runs on the Java Virtual Machine.
 
-Use one of the following tools to run your Scala code as you practice, these tools are called [REPLs](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop):
+## Table Of Contents
+1. [Essential Scala](basics/index.md)
+2. [Libraries](libraries/index.md)
+3. [Testing](testing/index.md)
+4. [CICD](cicd/index.md)
+
+## Setup
+
+### Scala and SBT
+
+You will need to install the Scala compiler and SBT (Simple Build Tool) in order to build your Scala projects
+
+    brew install scala
+    brew install sbt
+
+### REPL
+Use one of the following tools to run your Scala code as you practice, these tools are [REPLs](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop):
 
   * **Scala REPL:** Scala itself provides a built in REPL: `brew install scala`
   Now type `scala` on the command line. Welcome to your built in Scala REPL!
@@ -18,61 +38,11 @@ sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L https://github.com/lihaoyi/Ammo
 
   * **Scastie:** https://scastie.scala-lang.org/
 
-  * **Scala Fiddle:** https://scalafiddle.io/
-
-Now you're ready to start learning Scala with the resources below:
+Now you're ready to learn Scala with the resources below:
 
 ---
 
-## Scala Excercises
-
-These Scala excercises are the best way to start learning the Scala language and ecosystem as a beginner, but there are alse advanced courses here for those looking to advance their understanding.
-
-https://www.scala-exercises.org/
-
-Complete these excercises from the above link in the following order:
-1. [Scala Tutorial](https://www.scala-exercises.org/scala_tutorial/terms_and_types)
-2. [FP in Scala](https://www.scala-exercises.org/fp_in_scala/getting_started_with_functional_programming)
-3. [STD Lib](https://www.scala-exercises.org/std_lib/asserts)
-4. [Cats](https://www.scala-exercises.org/cats/semigroup)
-5. Complete the rest in any order
-
-## Coursera class by the creator of scala
-
-https://www.coursera.org/collections/learn-scala
-
-## Actor Pattern and Akka
-
-Akka is an important tool in the Scala ecosystem for building distributed systems and event sourcing.
-
- * https://doc.akka.io/docs/akka/current/scala/guide/actors-intro.html
- * https://doc.akka.io/docs/akka/current/general/actors.html
- * https://doc.akka.io/docs/akka/current/guide/introduction.html
- * https://doc.akka.io/docs/akka/current/typed/guide/tutorial_1.html
- * https://doc.akka.io/docs/akka/current/general/actor-systems.html
-
-## Cats
-
-Cats provides abstractions for pure functional programming and is a foundational library as it's types are leveraged in the broader ecosystem of "Typelevel" Scala libraries
-
-* https://typelevel.org/cats/
-* https://books.underscore.io/scala-with-cats/scala-with-cats.pdf
-
-## Cats-Effect
-
-Cats Effect provides a standard IO type for the Cats ecosystem, as well as a set of typeclasses which characterize general effect types. Critically, this project manages both synchronous and asynchronous (callback-driven) effects.
-
-https://typelevel.org/cats-effect/
-
-## Fs2
-
-A purely functional, effectful, compositional, polymorphic and stream processing library for Scala 
-
-https://fs2.io
-
----
-
-## Reccomended:
+## Recommended Reading:
 
 ### Category Theory in Scala
 
