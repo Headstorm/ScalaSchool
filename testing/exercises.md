@@ -5,7 +5,7 @@ Practice writing Scala and Scala tests with the code below:
 1. Complete the Room and Hotel classes where there are ???
 2. Write Unit tests for each function you fill in. There should be 4 unit tests.
 
-
+```scala
     case class Guest(name: String)
     
     case class Room(number: Int, guest: Option[Guest] = None){ room =>
@@ -27,6 +27,7 @@ Practice writing Scala and Scala tests with the code below:
       def checkin(personName: String): Hotel = ???
     
     }
+```
     
 Advanced:
 

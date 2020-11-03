@@ -25,7 +25,8 @@ https://www.scalatest.org/user_guide/selecting_a_style
 Testing individual functions of code with no external integrations.  This may require some mocking or stubbing. See the `Mocking` section at the end.
 
 Example of a Scala Unit test in ScalaTest using the AnyWordSpec:
-    
+  
+```scala  
     class IntegrationSetTest extends AnyWordSpec {
     
       val setDatabaseStub = mock[SetRepository]
@@ -41,7 +42,7 @@ Example of a Scala Unit test in ScalaTest using the AnyWordSpec:
             assertThrows[NoSuchElementException] {
               setService.retrieve("testSet").get
           ...
-
+```
 Notice that only one service is tested (SetService) with any dependencies mocked (SetRepository).
             
 ## Integration Testing
@@ -49,7 +50,8 @@ Notice that only one service is tested (SetService) with any dependencies mocked
 Testing combined functions sometimes with code that you don't control, or modules with some external integration or mocked integration.
 
 Example of a Scala Integration test in ScalaTest:
-    
+
+```scala    
     class IntegrationSetTest extends AnyWordSpec {
     
       val setDatabaseStub = mock[SetRepository]
@@ -62,6 +64,7 @@ Example of a Scala Integration test in ScalaTest:
             assert(setRoute.view("testSet").response == Response(Set()))
           }
           ...
+```
 
 Notice that two code modules are in play with any other dependencies mocked (SetRepository).
 We are testing both the actual SetService and the SetRoutes together.
@@ -84,7 +87,7 @@ Performance testing has 3 major phases:
 Performance testing is done with [Gatling](https://gatling.io/docs/current/)
 
 Here is an example of load testing an API:
-
+```scala 
     class HeadstormLoad extends Simulation {
     
       val httpProtocol = http
@@ -100,6 +103,7 @@ Here is an example of load testing an API:
     
       setUp(scn.inject(constantUsersPerSec(100) during (30 seconds)).protocols(httpProtocol))
     }
+```
     
 Download Gatling [here](https://gatling.io/open-source/)
 
@@ -109,7 +113,7 @@ Mocking allows us to emulate dependencies in our tests without constructing them
 The Mocking tool used with ScalaTest is called [ScalaMock](https://scalamock.org/)
 
 You saw examples above in the Unit and Integration tests for usage. Here is how you might create a mock that would be used as shown above:
-
+```scala 
       // Create mock SetRepository object
       val mockedTurtle = mock[SetRepository]
      
@@ -117,13 +121,13 @@ You saw examples above in the Unit and Integration tests for usage. Here is how 
       (mockedTurtle.addItem _).expects(Item(...))
       (mockedTurtle.getItem _).expects(Item(...))
       (mockedTurtle.removeItem _).expects(Success()).returning(()))
-
+```
 The last 3 lines of code set expectations for how the generated Mock SetRepository should behave under test.
 
 # Fixtures
 
 Fixtures are 
-
+```scala 
     def fixture =
        new {
          val builder = new StringBuilder("ScalaTest is ")
@@ -137,7 +141,7 @@ Fixtures are
        assert(f.buffer.isEmpty)
        f.buffer += "sweet"
      }
-
+```
 ## Testing Data Integrity
 
 TODO
