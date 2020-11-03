@@ -1,5 +1,12 @@
 # Scala Libraries
 
+## Testing
+
+* ScalaCheck: https://www.scalacheck.org/
+* ScalaMock:  https://www.scalacheck.org/
+* ScalaTest:  https://www.scalatest.org/
+* Scalactic:  https://www.scalactic.org/
+
 ## Actor Pattern and Akka
 
 Akka is an important tool in the Scala ecosystem for building distributed systems and event sourcing.

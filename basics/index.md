@@ -6,13 +6,14 @@ First, we need to learn the essential language features of the Scala language an
 
 Hands-on is a great way to start learning the Scala language and ecosystem as a beginner. There are also advanced courses here for those looking to add depth to their understanding.
 
-https://www.scala-exercises.org/
+https://www.scala-exercises.org
 
-Complete these excercises from the above link in the following order:
+Complete these exercises from the above link in the following order:
 1. [Scala Tutorial](https://www.scala-exercises.org/scala_tutorial/terms_and_types)
-2. [FP in Scala](https://www.scala-exercises.org/fp_in_scala/getting_started_with_functional_programming)
-3. [STD Lib](https://www.scala-exercises.org/std_lib/asserts)
-4. The remaining choices are not essential and can be covered later
+2. [STD Lib](https://www.scala-exercises.org/std_lib/asserts)
+3. [ScalaCheck](https://www.scala-exercises.org/scalacheck/properties)
+4. [FP in Scala](https://www.scala-exercises.org/fp_in_scala/getting_started_with_functional_programming)
+5. The remaining choices can be covered in any order
 
 ### Coursera class by the creator of scala
 

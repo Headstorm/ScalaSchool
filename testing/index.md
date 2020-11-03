@@ -8,9 +8,12 @@ This series assumes usage of a Scala testing library called [ScalaTest](https://
 
 ## Setup
 
-To run ScalaTest all you need is:
-1. Place your ScalaTests in the `src/main/test` directory
-2. Run your tests with `sbt test`
+1. Put unit tests in `src/test/scala`
+2. Put integration tests in `src/it/scala`
+3. Put e2e tests in `src/e2e/*`
+4  Put load tests in `src/load/scala`
+
+Run your tests with `sbt test` or `sbt it:test` for integration tests.
 
 ## Testing Styles
 
@@ -43,7 +46,7 @@ Notice that only one service is tested (SetService) with any dependencies mocked
             
 ## Integration Testing
 
-Testing combined functions or modules with some external integration or mocked integration.
+Testing combined functions sometimes with code that you don't control, or modules with some external integration or mocked integration.
 
 Example of a Scala Integration test in ScalaTest:
     
@@ -60,16 +63,16 @@ Example of a Scala Integration test in ScalaTest:
           }
           ...
 
-Notice that two code modules are tested here with any other dependencies mocked (SetRepository).
+Notice that two code modules are in play with any other dependencies mocked (SetRepository).
 We are testing both the actual SetService and the SetRoutes together.
 
 ## E2E Testing
 
-End To End testing is critical as it tests the full flow of our service from database to response from the user's perspective. 
+End To End testing is critical as it tests the full journey of data in our service from database to response from the user's perspective. 
 These tests can rely on test containers with an ad hoc test database or a persistent test database or event test data in Production.
 In order to run against test data in Production your team needs to have robust Code Review processes and controls in place.
 
-TODO: Postman/Insomnia/Scripts
+Postman, Insomnia, Python or even Bash scripts are useful tools to build E2E tests and run automatically with a CICD pipeline.
 
 ## Performance Testing
 
@@ -134,6 +137,10 @@ Fixtures are
        assert(f.buffer.isEmpty)
        f.buffer += "sweet"
      }
+
+## Testing Data Integrity
+
+TODO
 
 ## Test Containers
 
